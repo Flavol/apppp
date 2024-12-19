@@ -15,7 +15,7 @@ body {
     display: flex;
     max-width: 600px;
     margin: 20px;
-    overflow: hidden; /* Защита от выхода изображения за пределы */
+    overflow: hidden;
 }
 
 .product-image {
@@ -26,7 +26,7 @@ body {
     padding: 10px;
 }
 .product-image img {
-    max-width: 100%; /*  Изображение занимает всю доступную ширину*/
+    max-width: 100%;   
     height: auto;
     display: block;
 }
@@ -42,7 +42,7 @@ body {
 .product-title {
     font-size: 1.5em;
     margin-bottom: 10px;
-    line-height: 1.2; /* Улучшаем читаемость длинных заголовков */
+    line-height: 1.2; 
 }
 
 .product-rating {
@@ -50,7 +50,7 @@ body {
 }
 
 .stars {
-  color: #ffeb77; /* Золотой цвет звезд */
+  color: #ffeb77; 
   font-size: 1.2em;
 }
 .rating-value {
@@ -61,7 +61,7 @@ body {
 .product-description {
     color: #555;
     margin-bottom: 15px;
-    line-height: 1.4; /* Улучшаем читаемость длинных описаний */
+    line-height: 1.4; 
 }
 
 .product-price {
@@ -78,7 +78,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    align-self: flex-start; /*  Выравниваем кнопку по левому краю */
+    align-self: flex-start; 
 }
 
 .add-to-cart-button:hover {
